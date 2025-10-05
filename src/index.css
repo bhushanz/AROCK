@@ -1,0 +1,43 @@
+@import "tailwindcss";
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+@font-face {
+  font-family: "u7";
+  src: url("./assets/Fonts/u7.woff2") format("truetype");
+ 
+}
+
+@font-face {
+  font-family: "u4";
+  src: url("./assets/Fonts/u4.woff2") format("truetype");
+
+}
+
+@font-face {
+  font-family: "a4";
+  src: url("./assets/Fonts/a4.woff2") format("truetype");
+
+}
+
+@font-face {
+  font-family: "u8";
+  src: url("./assets/Fonts/u8.woff2") format("truetype");
+ 
+}
+
+.navbar{
+  font-family: 'u4',sans-serif;
+}
+
+.center{
+  font-family: 'u8',sans-serif;
+}
+
+span{
+  display: inline-block;
+}
